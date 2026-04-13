@@ -41,6 +41,11 @@ button {
     color: black;
     background-color: white;
 }
+
+button > svg { 
+    margin-right: 4px;
+    vertical-align: middle;
+}
     
 
 a {
@@ -73,6 +78,7 @@ a, button {
 }
 
 .card {
+    position: relative;
     background-color: #5d64db;
     margin-bottom: 50px;
     padding: 60px 36px;
@@ -83,3 +89,10 @@ a, button {
     border-radius: 30px;
 }
 
+.sticker {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 80px;
+    translate: -50% -50%;
+}

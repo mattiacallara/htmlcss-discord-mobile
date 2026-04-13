@@ -14,7 +14,7 @@ header {
     margin-bottom: 50px;
 }
 
-header > img {
+img {
     width: 100%;
 }
 
@@ -36,29 +36,40 @@ p {
 }
 
 button {
+    border: none;
+    background: none;
     color: black;
-    font-family: inherit;
     background-color: white;
-    margin: 0 auto;
 }
     
 
 a {
     color: white;
     text-decoration: none;
+    background-color: #5865f1;
 }
 
 a, button {
     display: block;
+    margin: 0 auto;
     padding: 16px 40px ;
     font-family: inherit;
     font-size: inherit;
     border-radius: 18px;
+    width: 350px;
 }
 
 #Hero {
     text-align: center;
     padding: 20px;
+}
+
+#Hero button {
+    margin-bottom: 12px;
+}
+
+#Hero a {
+    margin-bottom: 40px;
 }
 
 .card {
@@ -68,5 +79,7 @@ a, button {
     border-radius: 40px;
 }
 
-
+.card img {
+    border-radius: 30px;
+}
 
